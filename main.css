@@ -1,0 +1,254 @@
+* {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #020414 ;
+    color: #ffffff;
+  }
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo{
+    width: 6rem;
+}
+
+.menu{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 0.5rem;
+}
+
+.active{
+    border-bottom: 3px solid #F66F4D;
+}
+.bookNow{
+    text-decoration: none;
+    color: #F66F4D;
+    padding: 0.5rem;
+    border: 1px solid #F66F4D;
+    border-radius: 20px;
+    padding: 0.5rem 1rem;
+    font-size: 14px;
+}
+
+.banner{
+    padding: 5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.banner-img{
+    width: 25rem;
+}
+
+.banner-head{
+    font-size: 48px;
+    width: 25rem;
+    font-weight: 700;
+}
+
+.banner-sub{
+    width: 25rem;
+    font-size: 14px;
+}
+
+.categories{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.head{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.destination{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.cat-img{
+    width: 10rem;
+    height: 13rem;
+    box-shadow: 2px 2px 2px 2px #33333325;
+    border-radius: 10rem;
+}
+
+.sin{
+    margin: 1rem;
+    text-align: center;
+}
+
+.place{
+    font-weight: 700;
+}
+
+.cat-content{
+    width: 25rem;
+    text-align: center;
+}
+
+.abt-img{
+    width: 15rem;
+    padding: 5rem;
+}
+
+.abt{
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+}
+.left-abt{
+    display: flex;
+    justify-content: center;
+    width: 25rem;
+}
+.right-abt{
+    width: 25rem;
+}
+
+.sub-title{
+    color: #F66F4D;
+}
+
+.destinations{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tours{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    background-color: rgb(16, 16, 49);
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 1rem;
+    border-radius: 10px;
+    margin: 10px;
+    
+}
+
+.crd-head{
+    background-color: rgb(16, 16, 49);
+    color: #ffffff;
+    font-weight: 700;
+}
+.crd-img{
+    width: 250px;
+    border-radius: 5px;
+}
+
+.detail{
+    display: flex;
+    background-color: rgb(16, 16, 49);
+    justify-content: space-around;
+    width: 100%;
+}
+
+.book-1{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    padding: 0.2rem 1rem;
+    border-radius: 5px;
+}
+
+.content{
+    background-color: rgb(16, 16, 49);
+    width: 80%;
+    margin-left: 1rem;
+}
+
+.crd-cont {
+    font-weight: 400;
+    font-size: 12px;
+    background-color: rgb(16, 16, 49);
+    color: #ffffff;
+}
+
+.price{
+    font-weight: 700;
+    font-size: 16   px;
+    background-color: rgb(16, 16, 49);
+    color: #ffffff;
+}
+
+.client{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem;
+}
+
+.review-card , .card-para ,.ratings,.para,.name ,.pro,.stars{
+    width: 25rem;
+    background-color: rgb(16, 16, 49);
+    color: #ffffff;
+    margin: 0%;
+}
+
+.stars svg{
+    background-color: rgb(16, 16, 49);
+}
+
+.client-img{
+    width: 30rem;
+    display: flex;
+    justify-content: center;
+}
+
+.cli-img{
+    width: 15rem;
+}
+
+.review{
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    margin: 3rem;
+}
+
+.client-head{
+    font-size: 32px;
+    
+}
+
+.review-card{
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.stars{
+    margin:1rem 0rem;
+}
+
+.name{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.card-para{
+    font-size: 14px;
+}
+.pro{
+    font-size: 12px;
+    margin-top: 0.2rem;
+}
+
+.foot{
+    width: 100%;
+}
